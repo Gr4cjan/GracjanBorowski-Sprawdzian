@@ -29,15 +29,16 @@ aside{
     border-radius: 20px;
     background-color: #1F7A8C;
     padding: 10px;
-    width: 30%;
-    height: auto;
+    width: 20%;
+
     float: left;
 }
 .left{
- height: 600px;
+ height: 530px;
 }
 .right{
     height: auto;
+    width: 20%;
     float: right;
     color:white
 }
@@ -48,7 +49,7 @@ aside{
 .scroll{
     overflow-y: scroll;
     padding: 15px;
-    height: 560px;
+    height: 500px;
 }
 li{
     background-color: #BFDBF7;
