@@ -4,37 +4,50 @@
 }
 body{
     background-color: #BFDBF7;
+    border: 5px solid;
+    border-color: #ff0000;
 }
 h1{
     margin-top: 55px;
     text-align: center;
 }
 .main-container{
-    border: 10px solid;
-    border-color: #ff0000;
+    background-color: #BFDBF7;
 }
 .zdj1{
     border: 0px solid;
     border-radius: 5%;
-    display: flex;
-    align-items: center;
 }
 aside{
     border: 0px solid;
     border-radius: 20px;
     background-color: #002B3A;
-    width: 20%;
-    height: 100%;
+    padding: 10px;
+    width: 30%;
+    height: auto;
     float: left;
-    display: flex;
-    flex-direction: column;
+}
+.left{
+ height: 600px;
 }
 .right{
+    height: auto;
     float: right;
     color:white
+}
+.container{
+    margin-left: 20px;
+    width: 40%;
 }
 .scroll{
     overflow-y: scroll;
     padding: 15px;
-    height: 500px;
+    height: 560px;
+}
+li{
+    background-color: #BFDBF7;
+    margin: 5px;
+    list-style: none;
+    height: 30px;
+    width: 200px;
 }
