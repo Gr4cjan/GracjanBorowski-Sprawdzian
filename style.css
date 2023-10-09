@@ -9,3 +9,7 @@ h1{
     margin-top: 55px;
     text-align: center;
 }
+.zdj1{
+    display: flex;
+    align-items: center;
+}
