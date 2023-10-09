@@ -10,9 +10,12 @@ h1{
     text-align: center;
 }
 .main-container{
-
+    border: 10px solid;
+    border-color: #ff0000;
 }
 .zdj1{
+    border: 0px solid;
+    border-radius: 5%;
     display: flex;
     align-items: center;
 }
@@ -28,9 +31,10 @@ aside{
 }
 .right{
     float: right;
+    color:white
 }
 .scroll{
     overflow-y: scroll;
     padding: 15px;
-    height: 200px;
+    height: 500px;
 }
